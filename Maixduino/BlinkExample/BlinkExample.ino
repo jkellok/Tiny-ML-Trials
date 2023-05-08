@@ -7,8 +7,6 @@
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 */
 
-//int ledPin = 33;      // led for ESP32-CAM, replace with LED_BUILTIN
-
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
