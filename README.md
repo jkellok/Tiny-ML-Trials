@@ -1,7 +1,7 @@
 # Tiny ML Trials
 
 ## Description
-Example Tiny Machine Learning projects for TAMK Summer Training 2023 by Juska Kellokumpu.
+Example Tiny Machine Learning projects for TAMK Summer Training 2023 by Juska Kellokumpu & Henri Karesjoki.
 
 ## Setup
 #### Hardware
