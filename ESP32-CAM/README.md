@@ -13,6 +13,12 @@ Basic Blink example to test the board. Pin 33 for internal led or pin 4 for flas
 ### ESP32_CameraWebServer
 Library example code to test the camera on a web server.
 ### ESP32_Camera_Person_recognition
+Example code that determines the likelyhood that an image contains a person. Prints a number between 0 and 255(0 = not likely) to serialMonitor.
 You need to install these libraries to get this piece of code working:
 - EloquentTinyML
 - EloquentArduino
+
+### ESP32_Sine_wave_prediction_TensorflowLite
+Example project that demonstrates mleverywhere python package. This package converts ready made Tensorflow models to source codes that can run on ESP32. 
+
+In this case a simple sinewave prediction model has been converted and tested on ESP32 via ArduinoIDE and EloquentTinyML library.
