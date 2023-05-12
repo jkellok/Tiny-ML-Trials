@@ -14,6 +14,7 @@ ESP32-CAM & ESP32-CAM-MB
 
 #### Software
 Arduino IDE 1.8.19
+
 MaixPy IDE & kflash_gui
 
 #### Documentation and Installation
