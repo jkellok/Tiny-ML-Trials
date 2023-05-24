@@ -64,3 +64,10 @@ You can follow along this tutorial: https://www.edgemicrotech.com/maixpy-6-maixd
 Flash the .kfpkg with kflash_gui and run the python file.
 
 Alternatively, you can use Sipeed's own script: https://github.com/sipeed/MaixPy_scripts/blob/master/machine_vision/face_find/demo_find_face.py 
+
+### Mobilenet1000Class
+A pretrained model that recognises 1000 object was used in Maixduino.
+
+You can follow along this tutorial: https://wiki.sipeed.com/soft/maixpy/en/course/ai/image/1000_type_classifier.html
+
+A minimum firmware was used since the model is big. You can flash or use an SD card. uPyLoader was used to transfer files to board and execute the script.
