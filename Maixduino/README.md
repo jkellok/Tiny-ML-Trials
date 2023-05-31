@@ -12,7 +12,7 @@ Use MaixPy with Python files.
 
 https://wiki.sipeed.com/soft/maixpy/en/get_started/install_driver/duino.html
 
-Install USB Driver: https://dl.sipeed.com/MAIX/tools/driver
+Install USB Driver if needed: https://dl.sipeed.com/MAIX/tools/driver
 
 Update MaixPy Firmware: 
 https://wiki.sipeed.com/soft/maixpy/en/get_started/upgrade_maixpy_firmware.html
@@ -20,6 +20,11 @@ https://wiki.sipeed.com/soft/maixpy/en/get_started/upgrade_maixpy_firmware.html
 Download kflash_gui tool: https://github.com/sipeed/kflash_gui/releases
 
 Download firmware and upload to Maixduino with kflash_gui
+
+Firmware used:
+- maixpy_v0.6.2_84_g8fcd84a58.bin 
+- maixpy_v0.6.2_84_g8fcd84a58_minimum_with_ide_support.bin (use with bigger models)
+- maixpy_v0.6.2_84_g8fcd84a58_minimum.bin (no IDE support)
 
 MaixPy IDE: http://www.86x.org/cn-maixpy/cn.maixpy.sipeed.com/en/get_started/maixpyide.html
 
@@ -31,6 +36,12 @@ You can also use a serial terminal tool, like putty: http://www.86x.org/cn-maixp
 The camera on the board is GC0328. You may need to download Maixduino_GC0328 library: 	https://github.com/fukuen/Maixduino_GC0328
 
 If you have error with the lcd screen (like in display.ino example code in Arduino) you can remove Adafruit_GFX library from Arduino/libraries folder.
+
+Maixduino SD pin is 29.
+
+Maixduino chip has 6MiB memory, firmware can use up to 2MiB, minimal uses less. Model should be small. When running MaixPy (minimum version), a model of about 4MB can be loaded. If you don’t use the camera and LCD, you can load up to 5MiB of models. When running MaixPy (full version), it can load a model of about 2MiB.
+
+If you want to train a model or download one from [Maixhub](https://maixhub.com), you need Maixduino machine code, you can find instructions there.
 
 ## Code
 ### BlinkExample
@@ -70,4 +81,4 @@ A pretrained model that recognises 1000 object was used in Maixduino.
 
 You can follow along this tutorial: https://wiki.sipeed.com/soft/maixpy/en/course/ai/image/1000_type_classifier.html
 
-A minimum firmware was used since the model is big. You can flash or use an SD card. uPyLoader was used to transfer files to board and execute the script.
+A minimum firmware was used since the model is big. You can flash or use an SD card. uPyLoader was used to transfer files to board and execute the script. GC heap size needs to be reduced!
