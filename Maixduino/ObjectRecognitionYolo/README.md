@@ -1,4 +1,4 @@
-#ObjectRecognitionYolo
+# ObjectRecognitionYolo
 
 Example code to test object recognition. For this, klash_gui and MaixPy IDE was used. You could use an SD card instead of klash_gui.
 
