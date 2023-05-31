@@ -54,7 +54,7 @@ You can follow along this tutorial: https://www.edgemicrotech.com/maixpy-9-maixd
 
 YOLOv2 is a pre-trained object detection system: https://pjreddie.com/darknet/yolov2/
 
-Flash the .kmodel to Maixduino with kflash_gui to the 0x500000 address. You can use baudrate 115200. Then do the same with .kfpkg file. Then connect and run the python file.
+Flash the .kfpkg to Maixduino with kflash_gui to the 0x500000 address. You can use baudrate 115200. Then connect and run the python file.
 
 ### FaceDetection
 Example code to test face recognition. You can use kflash_gui and MaixPy IDE.
