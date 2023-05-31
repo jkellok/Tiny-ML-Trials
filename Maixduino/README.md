@@ -43,6 +43,8 @@ Maixduino chip has 6MiB memory, firmware can use up to 2MiB, minimal uses less. 
 
 If you want to train a model or download one from [Maixhub](https://maixhub.com), you need Maixduino machine code, you can find instructions there.
 
+If there are some problems, you can try to clear the chip by using chip erase in kflash and load the firmware and model again.
+
 ## Code
 ### BlinkExample
 A basic Blink example to test the board.
