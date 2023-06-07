@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>bottle_v3_708.jpg</filename>
+    <path>Bottle_V3-PascalVOC-export/Annotations/bottle_v3_708.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>224</width>
+        <height>224</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>bottle</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>76.52488687782805</xmin>
+        <ymin>9.628959276018099</ymin>
+        <xmax>151.02262443438912</xmax>
+        <ymax>203.22171945701356</ymax>
+    </bndbox>
+</object>
+</annotation>
