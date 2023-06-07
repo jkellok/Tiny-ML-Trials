@@ -1,5 +1,5 @@
 # Image Classification
-You can use the same pictures here of your object but you will need images of another class (another object or just images without the object).
+Image classification predicts which class an image represents. You can use the same pictures here of your object in object detection but you will need images of another class (another object or just images without the object). This model knows the classes "bottle" and "no bottle". You can also test this model with the test images.
 
 ## Steps
 1. Gather data
