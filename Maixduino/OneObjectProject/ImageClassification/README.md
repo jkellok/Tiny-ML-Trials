@@ -69,7 +69,7 @@ Image classification predicts which class an image represents. You can use the s
 			```shell
 			Fatal: Nullable object must have a value.
 			```
-
+	- c) There is also a [local training method](https://wiki.sipeed.com/soft/maixpy/en/course/ai/train/local.html) for Linux.
 
 4. Using the model
 	- If you downloaded the model from Maixhub, you also get main.py program to test out your model
