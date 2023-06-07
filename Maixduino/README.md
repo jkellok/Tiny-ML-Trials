@@ -84,3 +84,6 @@ A pretrained model that recognises 1000 object was used in Maixduino.
 You can follow along this tutorial: https://wiki.sipeed.com/soft/maixpy/en/course/ai/image/1000_type_classifier.html
 
 A minimum firmware was used since the model is big. You can flash or use an SD card. uPyLoader was used to transfer files to board and execute the script. GC heap size needs to be reduced!
+
+### OneObjectProject
+Creating a model from scratch for detecting and classifying one object for Maixduino.
