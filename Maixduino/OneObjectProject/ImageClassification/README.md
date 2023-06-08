@@ -1,6 +1,9 @@
 # Image Classification
 Image classification predicts which class an image represents. You can use the same pictures here of your object in object detection but you will need images of another class (another object or just images without the object). This model knows the classes "bottle" and "no bottle". You can also test this model with the test images.
 
+## Demo 
+![classification demo image](demo/demo_classification_pic_1.png "Classification Demo Image")
+
 ## Steps
 1. Gather data
 	- Take images of your classes
