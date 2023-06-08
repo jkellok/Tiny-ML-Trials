@@ -2,7 +2,7 @@
 Here I created a model for detecting one object and locating it. You can create your own model by following the instructions or test this model for detecting a green bottle with testing images.
 
 ## Demo 
-![detection demo image](demo/demo_detection_pic_1.png "Title Text")
+![detection demo image](demo/demo_detection_pic_1.png "Detection demo")
 
 ![detection demo video](demo/demo_detection_vid.mp4)
 
