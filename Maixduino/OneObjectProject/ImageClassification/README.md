@@ -4,6 +4,8 @@ Image classification predicts which class an image represents. You can use the s
 ## Demo 
 ![classification demo image](demo/demo_classification_pic_1.png "Classification Demo Image")
 
+![classification demo video](demo/demo_classification_vid.mp4)
+
 ## Steps
 1. Gather data
 	- Take images of your classes
