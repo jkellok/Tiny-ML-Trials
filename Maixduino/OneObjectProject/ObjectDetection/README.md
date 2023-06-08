@@ -3,8 +3,8 @@ Here I created a model for detecting one object and locating it. You can create 
 
 ## Demo 
 ![detection demo image](demo/demo_detection_pic_1.png "Title Text")
-![detection demo video](demo/demo_detection_vid.mp4)
 
+![detection demo video](demo/demo_detection_vid.mp4)
 
 ## Steps
 
