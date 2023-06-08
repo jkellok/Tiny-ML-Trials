@@ -2,7 +2,7 @@
 Image classification predicts which class an image represents. You can use the same pictures here of your object in object detection but you will need images of another class (another object or just images without the object). This model knows the classes "bottle" and "no bottle". You can also test this model with the test images.
 
 ## Demo 
-![classification demo image](demo/demo_classification_pic_1.png "Classification Demo Image")
+![classification demo image](demo/demo_classification_pic_1.png "Classification Demo")
 
 ![classification demo video](demo/demo_classification_vid.mp4)
 
@@ -36,7 +36,7 @@ Image classification predicts which class an image represents. You can use the s
 
 			# Save the model
 			with open('handmodel_v2.tflite', 'wb') as f:
-				f.write(tflite_model)```
+				f.write(tflite_model)
 
 		- Convert tflite model to kmodel with nncase
 		- You can use Maix_Toolbox: https://github.com/sipeed/Maix_Toolbox
@@ -54,7 +54,7 @@ Image classification predicts which class an image represents. You can use the s
 			tar -Jxf ncc-linux-x86_64.tar.xz
 			rm ncc-linux-x86_64.tar.xz
 			...
-			//end of file```
+			//end of file
 
 		- Download the library
 
