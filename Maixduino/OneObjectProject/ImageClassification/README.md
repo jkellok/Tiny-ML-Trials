@@ -35,7 +35,7 @@ Image classification predicts which class an image represents. You can use the s
 			tflite_model = converter.convert()
 
 			# Save the model
-			with open('handmodel_v2.tflite', 'wb') as f:
+			with open('example.tflite', 'wb') as f:
 				f.write(tflite_model)
 
 		- Convert tflite model to kmodel with nncase
