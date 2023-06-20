@@ -6,7 +6,7 @@ import gc, sys
 
 input_size = (224, 224)
 labels = ['bottle']
-anchors = [1.69, 3.81, 2.28, 5.78, 2.75, 6.44, 0.81, 1.78, 1.94, 4.75]
+anchors = [0.88, 2.03, 2.53, 6.28, 1.97, 4.75, 1.59, 3.62, 3.44, 5.38]
 
 def lcd_show_except(e):
     import uio
@@ -53,6 +53,7 @@ def main(anchors, labels = None, model_addr=0x300000, sensor_window=input_size, 
         kpu.init_yolo2(task, 0.5, 0.3, 5, anchors) # threshold:[0,1], nms_value: [0, 1]
         while(True):
             img = sensor.snapshot()
+            img.pix_to_ai()
             t = time.ticks_ms()
             objects = kpu.run_yolo2(task, img)
             t = time.ticks_ms() - t
@@ -63,6 +64,7 @@ def main(anchors, labels = None, model_addr=0x300000, sensor_window=input_size, 
                     img.draw_string(pos[0], pos[1], "%s : %.2f" %(labels[obj.classid()], obj.value()), scale=2, color=(255, 0, 0))
             img.draw_string(0, 200, "t:%dms" %(t), scale=2, color=(255, 0, 0))
             lcd.display(img)
+            #kpu.memtest() # keep code running
     except Exception as e:
         raise e
     finally:
@@ -72,8 +74,8 @@ def main(anchors, labels = None, model_addr=0x300000, sensor_window=input_size, 
 
 if __name__ == "__main__":
     try:
-        main(anchors = anchors, labels=labels, model_addr=0x300000, lcd_rotation=0)
-        # main(anchors = anchors, labels=labels, model_addr="/sd/model-53939.kmodel")
+        main(anchors = anchors, labels=labels, model_addr=0x300000, lcd_rotation=0) # rotation 3 if using ov camera and 3D printed case
+        # main(anchors = anchors, labels=labels, model_addr="/sd/model-55500.kmodel")
     except Exception as e:
         sys.print_exception(e)
         lcd_show_except(e)
