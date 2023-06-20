@@ -4,9 +4,9 @@ Working with sound was done with Arduino since it has Maix Speech Recognizer lib
 
 If you want to use the Speech Recognizer in Maixpy, you have to use firmware "minimum speech with ide support". You could possibly also build a custom firmware with https://github.com/sipeed/MaixPy/blob/master/build.md (use maixpy_k210, change settings to enable Speech Recognizer)
 
-Arduino Maixduino library has Maix_Speech_Recognition, which includes get_voice_model.ino and voice_control_led_en.ino that you can use as a base. First you need to run get_voice_model on the board. Open the serial monitor, press reset and speak close to the MEMS microphone on the board. If the recording succeeds, you get a frame number and an array of numbers. These are MFCC (Mel Frequency Cepstral Coefficient) features of the recording. Copy the number of frames and the array to the voice_model.h. You can also modify the strings to represent your commands.
+Arduino Maixduino library has Maix_Speech_Recognition, which includes `get_voice_model.ino` and `voice_control_led_en.ino` that you can use as a base. First you need to run get_voice_model on the board. Open the serial monitor, press reset and speak close to the MEMS microphone on the board. If the recording succeeds, you get a frame number and an array of numbers. These are MFCC (Mel Frequency Cepstral Coefficient) features of the recording. Copy the number of frames and the array to the `voice_model.h`. You can also modify the strings to represent your commands.
 
-There are 2628 elements in each array and there are many zeros if your recordings are short. The time limit specified in the library is 2.2 seconds. You can change the limit in ../libraries/Maix_Speech_Recognition/src/util/MFCC.h line 15
+There are 2628 elements in each array and there are many zeros if your recordings are short. The time limit specified in the library is 2.2 seconds. You can change the limit in `../libraries/Maix_Speech_Recognition/src/util/MFCC.h` line 15
 
 ```c
 #define vv_tim_max 2200
