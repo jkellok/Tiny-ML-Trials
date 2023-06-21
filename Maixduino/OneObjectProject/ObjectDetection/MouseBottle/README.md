@@ -4,6 +4,7 @@ At the end I wanted to try adding another object so the model could detect two o
 
 ## Demo
 ![mousebottle pic](demo/objdet_mousebottle_pic.jpg)
+
 ![mousebottle vid](demo/objdet_mousebottle_vid.mp4)
 
 ## MouseOnly
