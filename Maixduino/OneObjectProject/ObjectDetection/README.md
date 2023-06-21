@@ -1,6 +1,8 @@
 # Object Detection
 Here I created a model for detecting one object and locating it. You can create your own model by following the instructions or test this model for detecting a green bottle with testing images.
 
+MouseBottle includes two objects. I made it at the end and didn't want to spend too much time on it so the accuracy is not as good.
+
 ## Demo 
 ![detection demo image](demo/demo_detection_pic_1.png "Detection demo")
 
