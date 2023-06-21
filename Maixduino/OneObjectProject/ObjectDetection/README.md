@@ -45,3 +45,9 @@ Here I created a model for detecting one object and locating it. You can create 
 ## Issues
 - Freezes sometimes, could be a memory issue
 - Sometimes get "TypeError: Can't convert to type"
+- kpu.memtest() seems to keep the program running (executes gc.collect(), prints remaining memory)
+- possibly doesn't reach kpu.deinit() to release memory
+
+## More information
+- KPU API: https://wiki.sipeed.com/soft/maixpy/en/api_reference/Maix/kpu.html
+- About DNN, KPU and what model can be loaded: https://wiki.sipeed.com/soft/maixpy/en/dnn/index.html 

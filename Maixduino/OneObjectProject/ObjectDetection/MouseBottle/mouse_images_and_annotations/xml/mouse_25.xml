@@ -1,0 +1,37 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>mouse_25.jpg</filename>
+    <path>MouseBottle-PascalVOC-export/Annotations/mouse_25.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>224</width>
+        <height>224</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>mouse</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>41.56828193832599</xmin>
+        <ymin>143.5770925110132</ymin>
+        <xmax>102.7488986784141</xmax>
+        <ymax>184.52863436123346</ymax>
+    </bndbox>
+</object><object>
+    <name>bottle</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>99.29515418502203</xmin>
+        <ymin>47.118942731277535</ymin>
+        <xmax>136.79295154185021</xmax>
+        <ymax>154.6784140969163</ymax>
+    </bndbox>
+</object>
+</annotation>

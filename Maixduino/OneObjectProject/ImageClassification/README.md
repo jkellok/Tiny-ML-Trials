@@ -85,3 +85,9 @@ Image classification predicts which class an image represents. You can use the s
 ## Issues
 - Freezes sometimes, could be a memory issue
 - Sometimes get "ValueError: input not support"
+- kpu.memtest() seems to keep the program running (executes gc.collect(), prints remaining memory)
+- possibly doesn't reach kpu.deinit() to release memory
+
+## More information
+- KPU API: https://wiki.sipeed.com/soft/maixpy/en/api_reference/Maix/kpu.html
+- About DNN, KPU and what model can be loaded: https://wiki.sipeed.com/soft/maixpy/en/dnn/index.html 
