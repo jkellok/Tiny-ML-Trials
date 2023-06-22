@@ -30,15 +30,23 @@ KPU uses YOLO V2 object detection. YOLO (You Only Look Once) is a real-time obje
 
 ## Links
 Deep Neural Network: https://wiki.sipeed.com/soft/maixpy/en/course/ai/basic/dnn_basic.html
+
 About kmodel and KPU: https://wiki.sipeed.com/soft/maixpy/en/course/ai/basic/maixpy_hardware_ai_basic.html
+
 Object Detection with aXelerate: https://www.hackster.io/dmitrywat/object-detection-with-sipeed-maix-boards-kendryte-k210-421d55
+
 Object Detection with 20 classes model: https://www.edgemicrotech.com/maixpy-9-maixduino-object-detection-ai-micropython/
 
 ### Further reading
 
 ANN (Artificial Neural Network): https://heartbeat.comet.ml/introduction-to-deep-learning-with-keras-c7c3d14e1527
+
 CNN (Convolutional Neural Network): https://heartbeat.comet.ml/a-beginners-guide-to-convolutional-neural-networks-cnn-cf26c5ee17ed
+
 Object detection: https://www.fritz.ai/object-detection/
+
 Yolo: https://pjreddie.com/darknet/yolo/
+
 Tensorflow (image classification): https://www.tensorflow.org/hub/tutorials/image_feature_vector
+
 Keras: https://keras.io/getting_started/intro_to_keras_for_engineers/
